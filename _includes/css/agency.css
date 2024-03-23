@@ -287,7 +287,7 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
-    line-height: 22px;
+    line-height: 50px;
 }
 
 header .intro-text .intro-heading {
