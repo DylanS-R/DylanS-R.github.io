@@ -8,9 +8,9 @@
             </div>
         </div>
         <div class="row">
+            {% assign num_members = site.people | size %}
+            {% assign col_class = num_members > 1 ? 'col-sm-4' : 'col-sm-offset-4 col-sm-4' %}
             {% for member in site.people %}
-            {% set num_members = site.people | size %}
-            {% set col_class = num_members > 1 ? 'col-sm-4' : 'col-sm-offset-4 col-sm-4' %}
             <div class="{{ col_class }}">
                 <div class="team-member">
                     <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
