@@ -21,7 +21,7 @@ people:
       url: #
 
 - name: Larry Parker
-  pic: 2
+  pic: 1
   position: Lead Marketer
   social:
     - title: twitter
@@ -32,7 +32,7 @@ people:
       url: #
 
 - name: Diana Petersen
-  pic: 3
+  pic: 1
   position: Lead Developer
   social:
     - title: twitter
