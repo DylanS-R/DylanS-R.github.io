@@ -13,12 +13,12 @@ people:
   pic: 1
   position: Lead Designer
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+    - title: linkedin
+      url: https://linkedin.com/in/dylan-schmitt-rayner-14ba42205
+    - title: github
+      url: https://github.com/DylanS-R
     - title: stack-overflow
-      url: #
+      url: https://stackoverflow.com/users/22382760/dylans-r
 
 - name: Larry Parker
   pic: 1
