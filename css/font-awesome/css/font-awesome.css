@@ -1457,6 +1457,12 @@
 .fa-database:before {
   content: "\f1c0";
 }
+.fa-chart-simple:before {
+  content: "\f200";
+}
+.fa-person-chalkboard:before {
+  content: "\f6b2";
+}
 .fa-file-pdf-o:before {
   content: "\f1c1";
 }
