@@ -323,7 +323,7 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    z-index: 3;
+    z-index: 4;
 }
 
 header .intro-text .intro-lead-in {
