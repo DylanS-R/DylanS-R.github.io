@@ -300,6 +300,7 @@ header {
   height: 34vmax;
   aspect-ratio: 1;
   position: absolute;
+  z-index: 3;
   left: 50%;
   top: 50%;
   translate: -50% -50%;
@@ -314,7 +315,7 @@ header {
   height: 100%;
   width: 100%;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   backdrop-filter: blur(200px);
   pointer-events: none;
 }
