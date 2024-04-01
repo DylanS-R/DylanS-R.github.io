@@ -314,7 +314,7 @@ header {
   height: 100%;
   width: 100%;
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   backdrop-filter: blur(200px);
   pointer-events: none;
 }
@@ -322,7 +322,6 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    z-index: 3;
 }
 
 header .intro-text .intro-lead-in {
@@ -330,7 +329,6 @@ header .intro-text .intro-lead-in {
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
     line-height: 50px;
-    z-index: 3;
 }
 
 header .intro-text .intro-heading {
@@ -338,14 +336,12 @@ header .intro-text .intro-heading {
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
     line-height: 50px;
-    z-index: 3;
 }
 
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
-        z-index: 3;
     }
 
     header .intro-text .intro-lead-in {
@@ -353,7 +349,6 @@ header .intro-text .intro-heading {
         font-family: {{ site.data.template.font.primary }};
         font-size: 50px;
         line-height: 50px;
-        z-index: 3;
     }
 
     header .intro-text .intro-heading {
@@ -361,13 +356,11 @@ header .intro-text .intro-heading {
         font-family: {{ site.data.template.font.primary }};
         font-size: 50px;
         line-height: 50px;
-        z-index: 3;
     }
 }
 
 section {
     padding: 100px 0;
-    z-index: 3;
 }
 
 section h2.section-heading {
