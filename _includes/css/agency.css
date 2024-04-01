@@ -345,6 +345,7 @@ header .intro-text .intro-heading {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
+        z-index: 3;
     }
 
     header .intro-text .intro-lead-in {
@@ -352,6 +353,7 @@ header .intro-text .intro-heading {
         font-family: {{ site.data.template.font.primary }};
         font-size: 50px;
         line-height: 50px;
+        z-index: 3;
     }
 
     header .intro-text .intro-heading {
@@ -359,6 +361,7 @@ header .intro-text .intro-heading {
         font-family: {{ site.data.template.font.primary }};
         font-size: 50px;
         line-height: 50px;
+        z-index: 3;
     }
 }
 
