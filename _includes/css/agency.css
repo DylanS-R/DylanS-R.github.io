@@ -316,7 +316,7 @@ header {
   width: 100%;
   position: absolute;
   z-index: 2;
-  backdrop-filter: blur(200px);
+  backdrop-filter: blur(12vmax);
   pointer-events: none;
 }
 
