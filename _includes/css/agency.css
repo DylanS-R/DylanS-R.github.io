@@ -308,13 +308,14 @@ header {
   animation: rotate 20s infinite;
   opacity: 0.8;
   pointer-events: none;
+  z-index; -1
 }
 
 #blur {
   height: 100%;
   width: 100%;
   position: absolute;
-  z-index: 2;
+  z-index: -1;
   backdrop-filter: blur(200px);
   pointer-events: none;
 }
@@ -367,6 +368,7 @@ header .intro-text .intro-heading {
 
 section {
     padding: 100px 0;
+    z-index: 3;
 }
 
 section h2.section-heading {
