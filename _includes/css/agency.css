@@ -308,7 +308,6 @@ header {
   animation: rotate 20s infinite;
   opacity: 0.8;
   pointer-events: none;
-  z-index: -2;
 }
 
 #blur {
