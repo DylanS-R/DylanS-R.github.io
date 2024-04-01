@@ -279,7 +279,6 @@ header {
     -o-background-size: cover;
     overflow:hidden;
     position: relative;
-    z-index: 4;
 }
 
 @keyframes rotate {
@@ -346,7 +345,6 @@ header .intro-text .intro-heading {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
-        z-index: 5;
     }
 
     header .intro-text .intro-lead-in {
@@ -368,14 +366,12 @@ header .intro-text .intro-heading {
 
 section {
     padding: 100px 0;
-    z-index: 5;
 }
 
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-    z-index: 5;
 }
 
 section h3.section-subheading {
@@ -385,26 +381,22 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-    z-index: 5;
 }
 
 @media(min-width:768px) {
     section {
         padding: 150px 0;
-        z-index: 5;
     }
 }
 
 .service-heading {
     margin: 15px 0;
     text-transform: none;
-    z-index: 5;
 }
 
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
-    z-index: 5;
 }
 
 #portfolio .portfolio-item .portfolio-link {
