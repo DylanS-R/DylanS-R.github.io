@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-colour: black;
+    background-color: black;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -294,7 +294,7 @@ header {
 }
 
 #blob {
-  background-color: black;
+  background-color: white;
   height: 34vmax;
   aspect-ratio: 1;
   position: absolute;
