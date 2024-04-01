@@ -322,7 +322,6 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    z-index: 2;
 }
 
 header .intro-text .intro-lead-in {
@@ -330,7 +329,6 @@ header .intro-text .intro-lead-in {
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
     line-height: 50px;
-    z-index: 2;
 }
 
 header .intro-text .intro-heading {
@@ -338,7 +336,6 @@ header .intro-text .intro-heading {
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
     line-height: 50px;
-    z-index: 2;
 }
 
 @media(min-width:768px) {
@@ -352,7 +349,6 @@ header .intro-text .intro-heading {
         font-family: {{ site.data.template.font.primary }};
         font-size: 50px;
         line-height: 50px;
-        z-index: 2;
     }
 
     header .intro-text .intro-heading {
@@ -360,7 +356,6 @@ header .intro-text .intro-heading {
         font-family: {{ site.data.template.font.primary }};
         font-size: 50px;
         line-height: 50px;
-        z-index: 2;
     }
 }
 
