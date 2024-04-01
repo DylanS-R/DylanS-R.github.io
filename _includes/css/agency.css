@@ -279,6 +279,7 @@ header {
     -o-background-size: cover;
     overflow:hidden;
     position: relative;
+    z-index: 3;
 }
 
 @keyframes rotate {
