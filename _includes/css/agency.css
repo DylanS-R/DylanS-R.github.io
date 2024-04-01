@@ -314,7 +314,7 @@ header {
   height: 100%;
   width: 100%;
   position: absolute;
-  z-index: 3;
+  z-index: 2;
   backdrop-filter: blur(12vmax);
   pointer-events: none;
 }
