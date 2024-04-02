@@ -317,6 +317,7 @@ header {
   position: absolute;
   z-index: 2;
   backdrop-filter: blur(12vmax);
+  -webkit-backdrop-filter: blur(12vmax);
   pointer-events: none;
 }
 
