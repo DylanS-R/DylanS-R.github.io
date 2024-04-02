@@ -704,36 +704,46 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
     color: #fff;
+    position: relative;
+    z-index: 5;
 }
 
 section#contact .form-group {
     margin-bottom: 25px;
+    position: relative;
 }
 
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
+    position: relative;
+    z-index: 5;
 }
 
 section#contact .form-group input.form-control {
     height: auto;
+    position: relative;
+    z-index: 5;
 }
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+    position: relative;
+    z-index: 5;
 }
 
 section#contact .form-control:focus {
     border-color: #{{ site.data.template.color.primary }};
     box-shadow: none;
+    position: relative;
+    z-index: 5;
 }
 
 section#contact::-webkit-input-placeholder {
@@ -741,6 +751,8 @@ section#contact::-webkit-input-placeholder {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
+    position: relative;
+    z-index: 5;
 }
 
 section#contact:-moz-placeholder {
@@ -748,6 +760,8 @@ section#contact:-moz-placeholder {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
+    position: relative;
+    z-index: 5;
 }
 
 section#contact::-moz-placeholder {
@@ -755,6 +769,8 @@ section#contact::-moz-placeholder {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
+    position: relative;
+    z-index: 5;
 }
 
 section#contact:-ms-input-placeholder {
@@ -762,10 +778,14 @@ section#contact:-ms-input-placeholder {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
+    position: relative;
+    z-index: 5;
 }
 
 section#contact .text-danger {
     color: #e74c3c;
+    position: relative;
+    z-index: 5;
 }
 
 footer {
