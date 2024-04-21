@@ -3,7 +3,7 @@ baseurl:
 
 # Site settings
 title: Dylan S-R
-email: your-email@domain.com
+email: dylan.schmittrayner@gmail.com
 description: Test
 
 
@@ -35,8 +35,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line:
+  - line:
 
 # Build settings
 markdown: kramdown
