@@ -1,9 +1,9 @@
-const blobs = document.querySelectorAll(".blob");
+const blobs = document.getElementsByClassName("blob");
 
 window.onpointermove = event => {
   const { clientX, clientY } = event;
 
-  blobs.forEach(blob => {
+  Array.from(blobs).forEach(blob => {
     blob.animate({
       left: `${clientX}px`,
       top: `${clientY}px`
