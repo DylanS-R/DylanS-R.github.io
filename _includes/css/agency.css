@@ -374,8 +374,6 @@ header .intro-text .intro-heading {
         font-family: {{ site.data.template.font.primary }};
         font-size: 50px;
         line-height: 50px;
-        position: relative;
-        z-index: 5;
     }
 
     header .intro-text .intro-heading {
