@@ -300,8 +300,7 @@ header {
 
 #blob {
   background-color: white;
-  height: 200%;
-  width: 200%;
+  height: 34vmax;
   aspect-ratio: 1;
   position: absolute;
   left: 50%;
