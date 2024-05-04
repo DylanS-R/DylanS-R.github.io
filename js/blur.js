@@ -1,15 +1,15 @@
-const header-blob = document.getElementById("header-blob");
-const contact-blob = document.getElementById("contact-blob");
+const headerBlob = document.getElementById("header-blob");
+const contactBlob = document.getElementById("contact-blob");
 
 window.onpointermove = event => {
   const { clientX, clientY } = event;
 
-  header-blob.animate({
+  headerBlob.animate({
     left: `${clientX}px`,
     top: `${clientY}px`
   }, { duration: 3000, fill: "forwards" });
 
-  contact-blob.animate({
+  contactBlob.animate({
     left: `${clientX}px`,
     top: `${clientY}px`
   }, { duration: 3000, fill: "forwards" });
