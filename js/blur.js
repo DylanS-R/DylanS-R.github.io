@@ -1,12 +1,12 @@
-/* -- Glow effect -- */
-
-const blob = document.getElementById("blob");
+const blobs = document.querySelectorAll(".blob");
 
 window.onpointermove = event => {
   const { clientX, clientY } = event;
 
-  blob.animate({
-    left: `${clientX}px`,
-    top: `${clientY}px`
-  }, { duration: 3000, fill: "forwards" });
+  blobs.forEach(blob => {
+    blob.animate({
+      left: `${clientX}px`,
+      top: `${clientY}px`
+    }, { duration: 3000, fill: "forwards" });
+  });
 }
