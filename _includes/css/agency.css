@@ -950,10 +950,10 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
-.alert-success {
+.alert.alert-success {
     z-index: 1000; /* Adjust the value as needed */
 }
 
-.alert-danger {
+.alert.alert-danger {
     z-index: 1000; /* Adjust the value as needed */
 }
