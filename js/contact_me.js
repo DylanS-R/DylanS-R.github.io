@@ -37,13 +37,6 @@ $(function() {
                     $('#success > .alert-success')
                         .append('</div>');
 
-                    // Adding position and z-index to the success message
-                    $('#success').css({
-                        'position': 'relative',
-                        'z-index': '999'
-                    });
-
-
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
@@ -54,11 +47,6 @@ $(function() {
                         .append("</button>");
                     $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
                     $('#success > .alert-danger').append('</div>');
-
-                    $('#success').css({
-                        'position': 'relative',
-                        'z-index': '999'
-                    });
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
