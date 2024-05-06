@@ -37,8 +37,12 @@ $(function() {
                     $('#success > .alert-success')
                         .append('</div>');
 
-                    // Adding z-index to the success message
-                    $('#success').css('z-index', '999');
+                    // Adding position and z-index to the success message
+                    $('#success').css({
+                        'position': 'relative',
+                        'z-index': '999'
+                    });
+
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
@@ -51,8 +55,10 @@ $(function() {
                     $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
                     $('#success > .alert-danger').append('</div>');
 
-                    // Adding z-index to the fail message
-                    $('#success').css('z-index', '999');
+                    $('#success').css({
+                        'position': 'relative',
+                        'z-index': '999'
+                    });
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
