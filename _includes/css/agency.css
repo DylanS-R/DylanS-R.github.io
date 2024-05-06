@@ -951,9 +951,11 @@ body {
 }
 
 .alert.alert-success {
+    position: relative;
     z-index: 1000; /* Adjust the value as needed */
 }
 
 .alert.alert-danger {
+    position: relative;
     z-index: 1000; /* Adjust the value as needed */
 }
