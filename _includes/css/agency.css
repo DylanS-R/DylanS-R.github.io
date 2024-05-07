@@ -401,6 +401,8 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+    position: relative;
+    z-index: 5;
 }
 
 @media(min-width:768px) {
